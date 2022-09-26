@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="wrapper.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="btn.css">
+    <title>Detalles del Vehiculo</title>
+</head>
+
+<body>
+    <main class="wrapper-interior">
+        <div class="content-general">
+            <div class="max-width">
+                <h1 class="title-main">Detalles del Vehiculo</h1>
+                <form onsubmit="getInput(event)">
+                    <label for="input_name" class="form-label semi-bold ">Nombre *</label>
+                    <input id="input_name" class="form-control col48md" type="text" name="name" />
+
+                    <label for="input_category" class="form-label semi-bold ">Categoria *</label>
+                    <input id="input_category" class="form-control col48md" type="text" name="category" />
+
+                    <label for="input_capacity" class="form-label semi-bold ">Capacidad *</label>
+                    <input id="input_capacity" class="form-control col48md" type="number" name="capacity" />
+
+                    <label for="input_luggage" class="form-label semi-bold ">Equipaje *</label>
+                    <input id="input_luggage" class="form-control col48md" type="number" name="luggage" />
+
+                    <label for="input_transmission" class="form-label semi-bold ">Transmision *</label>
+                    <input id="input_transmission" class="form-control col48md" type="text" name="transmission" />
+
+                    <label for="input_mileage" class="form-label semi-bold ">Kilometraje *</label>
+                    <input id="input_mileage" class="form-control col48md" type="text" name="mileage" />
+
+                    <div class="btn__save">
+                        <button class="btn btn--blue mr-10" type="submit" id="btn">
+                            Enviar
+                        </button>
+                        <a class="btn btn--white" href="index.html" type="button">Atras</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    </main>
+</body>
+<script src="car.js"></script>
+
+</html>
+
+</html>
